@@ -4,7 +4,8 @@
 
 
 #### 软件架构
-main.si
+sino-modules
+src/main.si
 sinohub.yml
 
 #### 安装教程
