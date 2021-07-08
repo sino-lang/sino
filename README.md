@@ -4,7 +4,7 @@
 
 
 #### 软件架构
-sino-modules
+sino-packages
 
 src/main.si
 
