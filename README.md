@@ -8,7 +8,7 @@ sino-packages
 
 src/main.si
 
-sinohub.yml
+sinohub.toml
 
 #### 安装教程
 
