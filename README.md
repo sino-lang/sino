@@ -6,18 +6,19 @@
 #### 软件架构
 sino-packages
 
-src/main.s
+src/main.sl
 
 sinohub.toml
 
 #### 安装教程
 
 ## 使用方式
-### hello world
-hello 
+sino main.sl
+
+spm run 
 
 ### 第三方库安装 
-mvp install ***
+spm install ***
 
 #### 使用说明
 
