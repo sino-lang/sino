@@ -13,7 +13,8 @@ sinohub.toml
 #### 安装教程
 
 ## 使用方式
-sino main.sl
+sino main.sn
+main.snc
 
 spm run 
 
