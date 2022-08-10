@@ -6,7 +6,7 @@
 #### 软件架构
 sino-packages
 
-src/main.sl
+src/main.sn
 
 sinohub.toml
 
