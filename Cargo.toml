@@ -1,0 +1,30 @@
+[package]
+name = "sino"
+version = "0.0.2"
+edition = "2021"
+license = "MIT"
+authors = ["Sino Team <sino@sino.dev>"]
+description = "The Sino Language Demo"
+homepage = "https://github.com/sino-lang/sino"
+repository = "https://github.com/sino-lang/sino"
+keywords = ["cli", "sino"]
+categories = ["command-line-utilities"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+opt-level = 'z'  # 优化大小
+lto = true       # 开启链接时优化 (Link Time Optimization)
+
+
+
+[dependencies]
+inkwell = { git = "https://github.com/TheDan64/inkwell", branch = "master", features = ["llvm17-0"] }
+
+# inkwell_internals = "0.8.0"
+# llvm-sys-170 = { package = "llvm-sys", version = "170", features = ["prefer-static"] }
+
+
+# [target.'cfg(target_arch = "x86_64")'.dependencies]
+# # 这里添加你需要静态链接的库的依赖项
+# # 例如，如果你使用的是LLVM，可以添加如下行：
+# llvm-sys-160 = { package = "llvm-sys",version = "^160", features = ["static-linkage"] }
