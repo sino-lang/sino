@@ -8,7 +8,7 @@ sino-packages
 
 src/main.sn
 
-sinohub.toml
+Seres.toml
 
 #### 安装教程
 
@@ -16,10 +16,10 @@ sinohub.toml
 sino main.sn
 main.snc
 
-spm run 
+seres run 
 
 ### 第三方库安装 
-spm install ***
+seres install ***
 
 #### 使用说明
 
@@ -33,6 +33,14 @@ spm install ***
 2.  新建 Feat_xxx 分支
 3.  提交代码
 4.  新建 Pull Request
+
+
+#### 环境
+```
+bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"
+apt-get install libpolly-17-dev
+apt-get install libzstd-dev
+```
 
 
 
