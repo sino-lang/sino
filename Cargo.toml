@@ -11,14 +11,8 @@ keywords = ["cli", "sino"]
 categories = ["command-line-utilities"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[profile.release]
-opt-level = 'z'  # 优化大小
-lto = true       # 开启链接时优化 (Link Time Optimization)
-
-
-
 [dependencies]
-inkwell = { git = "https://github.com/TheDan64/inkwell", branch = "master", features = ["llvm17-0"] }
+inkwell = { version = "0.4.0", features = ["llvm17-0"] }
 
 # inkwell_internals = "0.8.0"
 # llvm-sys-170 = { package = "llvm-sys", version = "170", features = ["prefer-static"] }
