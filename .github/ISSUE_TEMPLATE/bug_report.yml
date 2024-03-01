@@ -1,5 +1,5 @@
 name: "\U0001F41E Bug report"
-description: Report an issue with vue-pure-admin
+description: Report an issue
 body:
   - type: markdown
     attributes:
