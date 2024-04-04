@@ -108,7 +108,11 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "92d43fe69e652f3df9bdc2b85b2854a0825b86e4fb76bc44d945137d053639ca"
 
 [[package]]
-name = "sinoc-llvm"
+name = "sinoc_ast"
+version = "0.1.0"
+
+[[package]]
+name = "sinoc_llvm"
 version = "0.1.0"
 dependencies = [
  "inkwell",
