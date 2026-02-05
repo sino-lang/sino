@@ -2,6 +2,13 @@
 name = "sino"
 version = "0.0.3"
 edition = "2024"
+license = "Mulan"
+authors = ["Sino Team <sino@sino.dev>"]
+description = "The Sino Language"
+homepage = "https://github.com/sino-lang/sino"
+repository = "https://github.com/sino-lang/sino"
+keywords = ["cli", "sino"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 inkwell = { version = "0.8.0", features = ["llvm21-1"] }
