@@ -2,7 +2,7 @@
 name = "sino"
 version = "0.0.3"
 edition = "2024"
-license = "Mulan"
+license = "MIT"
 authors = ["Sino Team <sino@sino.dev>"]
 description = "The Sino Language"
 homepage = "https://github.com/sino-lang/sino"
