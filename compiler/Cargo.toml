@@ -1,4 +1,0 @@
-[workspace]
-
-members = [ "sinoc_ast","sinoc_llvm"]
-resolver = "2"
